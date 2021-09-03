@@ -8,8 +8,8 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        int p = 6; /* Периметр прямоугольника */
-        int k = 2; /* Коэффициент */
+        double p = 6; /* Периметр прямоугольника */
+        double k = 2; /* Коэффициент */
         double result = SqArea.square(p, k);
         String resultfinish = String.format("%.1f",result);
         System.out.println(" p = 6, k = 2, s = " + resultfinish);
