@@ -11,9 +11,9 @@ public class Converter {
 
     public static void main(String[] args) {
         float euro = Converter.rubleToEuro(370);
-        String resulteuro = String.format("%.2f",euro);
+        String resulteuro = String.format("%.2f", euro);
         float dollar = Converter.rubleToDollar(370);
-        String resultdollar = String.format("%.2f",dollar);
+        String resultdollar = String.format("%.2f", dollar);
         System.out.println("370 rubles are " + resulteuro + " euro.");
         System.out.println("370 rubles are " + resultdollar + " dollar.");
     }
