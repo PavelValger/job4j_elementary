@@ -12,7 +12,7 @@ public class TrgArea {
         double b = 2;
         double c = 2;
         double result = TrgArea.area(a, b, c);
-        String resultfinish = String.format("%.3f",result);
+        String resultfinish = String.format("%.2f",result);
         System.out.println("Площадь треугольника (2, 2, 2) = " + resultfinish);
-            }
+    }
 }
