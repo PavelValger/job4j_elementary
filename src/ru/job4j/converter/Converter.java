@@ -14,7 +14,16 @@ public class Converter {
         String resulteuro = String.format("%.2f", euro);
         float dollar = Converter.rubleToDollar(370);
         String resultdollar = String.format("%.2f", dollar);
-        System.out.println("370 rubles are " + resulteuro + " euro.");
-        System.out.println("370 rubles are " + resultdollar + " dollar.");
+        //Тестирование программы://
+        float in = 370;
+        float expected = in / 70; //либо сравнить с 5.285714F//
+        float out = Converter.rubleToEuro(in);
+        boolean passedEuro = expected == out;
+        expected = in / 60; //либо сравнить с 6.1666665F//
+        out = Converter.rubleToDollar(in);
+        boolean passedDollar = expected == out;
+        //Вывод результата://
+        System.out.println("370 rubles are " + resulteuro + " euro. " + "Test result : " + passedEuro);
+        System.out.println("370 rubles are " + resultdollar + " dollar. " + "Test result : " + passedDollar);
     }
 }
