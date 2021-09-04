@@ -10,20 +10,19 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float euro = Converter.rubleToEuro(370);
-        String resulteuro = String.format("%.2f", euro);
-        float dollar = Converter.rubleToDollar(370);
-        String resultdollar = String.format("%.2f", dollar);
+        float euro = Converter.rubleToEuro(350);
+        float dollar = Converter.rubleToDollar(600);
         //Тестирование программы://
-        float in = 370;
-        float expected = in / 70; //либо сравнить с 5.285714F//
+        float in = 350;
+        float expected = 5;
         float out = Converter.rubleToEuro(in);
         boolean passedEuro = expected == out;
-        expected = in / 60; //либо сравнить с 6.1666665F//
+        in = 600;
+        expected = 10;
         out = Converter.rubleToDollar(in);
         boolean passedDollar = expected == out;
         //Вывод результата://
-        System.out.println("370 rubles are " + resulteuro + " euro. " + "Test result : " + passedEuro);
-        System.out.println("370 rubles are " + resultdollar + " dollar. " + "Test result : " + passedDollar);
+        System.out.println("350 rubles are " + euro + " euro. " + "Test result : " + passedEuro);
+        System.out.println("600 rubles are " + dollar + " dollar. " + "Test result : " + passedDollar);
     }
 }
