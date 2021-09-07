@@ -16,3 +16,4 @@ public class Games {
         Games.permission(false, false);
     }
 }
+ //Текст для направления ссылки на коммит
