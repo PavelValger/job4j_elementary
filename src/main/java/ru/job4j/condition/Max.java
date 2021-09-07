@@ -10,4 +10,3 @@ public class Max {
         System.out.println(result);
     }
 }
-//Текст для ссылки на коммит
