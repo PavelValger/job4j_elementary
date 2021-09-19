@@ -15,7 +15,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas8Then0() {
+    public void whenArrayHas8Then2() {
         int[] data = {5, 4, 8, 2};
         int el = 8;
         int result = FindLoop.indexOf(data, el);
