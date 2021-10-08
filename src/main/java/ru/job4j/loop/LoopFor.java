@@ -7,4 +7,3 @@ public class LoopFor {
         }
     }
 }
-//проверка checkStyle

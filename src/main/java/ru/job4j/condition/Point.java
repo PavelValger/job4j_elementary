@@ -11,7 +11,7 @@ public class Point {
         int x2 = 5; /* абсцисса точки Б*/
         int y2 = 6; /* ордината точки Б */
         double result = Point.distance(x1, y1, x2, y2);
-        String resultfinish = String.format("%.2f", result);
-        System.out.println("расстояние между двумя точками А (2, 9) и Б (5, 6) равно " + resultfinish);
+        String finish = String.format("%.2f", result);
+        System.out.println("расстояние между двумя точками А (2, 9) и Б (5, 6) равно " + finish);
     }
 }
