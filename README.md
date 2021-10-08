@@ -1,17 +1,17 @@
 # job4j
 Проект содержит решения блока "Базовый синтаксис" курса Job4j.
 
-Блок состоит из различных тематик.
-- [x] Массивы (array);
+Блок состоит из различных тематик:
+- [x] массивы (array);
 
    ![](https://github.com/PavelValger/job4j_elementary/blob/master/images/arrays.jpg)
-- [x] Операторы условия (condition);
+- [x] операторы условия (condition);
 
    ![](https://github.com/PavelValger/job4j_elementary/blob/master/images/conditions.jpg)
-- [x] Циклы (loop);
+- [x] циклы (loop);
 
    ![](https://github.com/PavelValger/job4j_elementary/blob/master/images/cycles.jpg)
-- [x] Тесты к задачам (test).
+- [x] тесты к задачам (test).
 
   ![](https://github.com/PavelValger/job4j_elementary/blob/master/images/test.jpg)
 #### Контакты для связи :calling: :
