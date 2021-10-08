@@ -1,7 +1,8 @@
 # job4j
 Проект содержит решения блока "Базовый синтаксис" курса Job4j.
+
 Блок состоит из различных тематик.
-- [x] Массивы (array) - [x];
+- [x] Массивы (array);
 
    ![](https://github.com/PavelValger/job4j_elementary/blob/master/images/arrays.jpg)
 - [x] Операторы условия (condition);
