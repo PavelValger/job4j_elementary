@@ -1,4 +1,7 @@
 # job4j
+
+[![Build Status](https://app.travis-ci.com/PavelValger/job4j_elementary.svg?branch=master)](https://app.travis-ci.com/PavelValger/job4j_elementary)
+
 Проект содержит решения блока "Базовый синтаксис" курса Job4j.
 
 Блок состоит из различных тематик:
