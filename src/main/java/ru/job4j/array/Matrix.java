@@ -1,15 +1,19 @@
 package ru.job4j.array;
 
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 
 public class Matrix {
-    public static int[][] multiple(int size) {
+    public static int[][] multiple(int size) throws IOException {
         int[][] array = new int[size][size];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 array[i][j] = (i + 1) * (j + 1);
             }
+        }
+        if (size < 1 || size > 9) {
+            throw new IOException("Некорректный ввод. Введите число от 1 до 9");
         }
         return array;
     }
@@ -22,7 +26,7 @@ public class Matrix {
             out.write(System.lineSeparator().getBytes());
             out.write(matrixTwo.getBytes());
             out.write(System.lineSeparator().getBytes());
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
