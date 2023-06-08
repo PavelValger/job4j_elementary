@@ -8,11 +8,11 @@ public class SimpleStringEncoder {
         for (int i = 1; i < input.length(); i++) {
             if (symbol == input.charAt(i)) {
                 counter++;
-                continue;
+            } else {
+                rsl = counter == 1 ? rsl.append(symbol) : rsl.append(symbol).append(counter);
+                counter = 1;
+                symbol = input.charAt(i);
             }
-            rsl = counter == 1 ? rsl.append(symbol) : rsl.append(symbol).append(counter);
-            counter = 1;
-            symbol = input.charAt(i);
         }
         return counter == 1 ? (rsl.append(symbol)).toString() : (rsl.append(symbol).append(counter)).toString();
     }
